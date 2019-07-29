@@ -1,0 +1,8 @@
+<div class="tag-input-form">
+    <h3>Adcash test assignment</h3>
+    <div class="form-group">
+        <label for="tagInput">Type tags here using comma, semicolon and line break as delimiters</label>
+        <textarea class="form-control" [(ngModel)]="tagInput" id="tagInput" rows="10"></textarea>
+    </div>
+    <button type="button" (click)="addTags()" class="btn btn-primary">{{btnName}}</button>
+</div>

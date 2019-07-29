@@ -1,0 +1,33 @@
+textarea {
+    height: 150px;
+}
+.content{
+    margin-top:60px;
+}
+.display-tags {
+    margin-top:60px;
+    width: 450px
+}
+.tags-view {
+  height: 65px;
+  border:1px solid #ced4da;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 249);
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  overflow-x: auto;
+}
+.tag {
+    color: white;
+    margin: 0 5px;
+    padding: 3px;
+    display: inline-flex;
+    border-radius: 5px;
+}
+.remove-tag{
+  margin: 0px 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
