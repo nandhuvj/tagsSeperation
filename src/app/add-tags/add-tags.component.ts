@@ -19,7 +19,7 @@ export class AddTagsComponent implements OnInit {
     if (this.commonService.tags.length) {
       localStorage.clear();
       this.tags = [];
-      this.btnName = 'Edit Tags'
+      this.btnName = 'Save'
       this.tagInput = this.commonService.tags.join(',');
     }
 
